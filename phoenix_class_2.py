@@ -21,3 +21,20 @@ else:
     print("Wrong input")
 
 
+### task 2 - Write a Python program that iterates through integers from 1 to 100. 
+# For each multiple of three, print "Fizz" instead of the number; 
+# for each multiple of five, print "Buzz". 
+# For numbers that are multiples of both three and five, print "FizzBuzz".
+
+numbers = [1, 101]
+for number in numbers:
+    if number % 3 == 0:
+        print("Fizz")
+    elif number % 5 == 0:
+        print("Buzz")
+    elif number % 3 == 0 and number % 5 == 0:
+        print("FizzBuzz")
+    else:
+        print(number)
+
+
